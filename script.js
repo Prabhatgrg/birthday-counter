@@ -1,16 +1,6 @@
-const home = document.getElementById("home");
 
-function click()
+function showTime()
 {
-    // home.onclick = alert("Wuuttttt");
-    home.addEventListener("Click", alert("wutttt"));
+    var dt = Date();
+    document.getElementById("Home").innerHTML = dt;
 }
-
-document.getElementById("home").addEventListener("click", myFunction);
-
-function myFunction() {
-    msg = alert("Hellooo");
-    document.getElementById("home") = msg;
-}
-myFunction();
-// click();
