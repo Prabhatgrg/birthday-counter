@@ -10,6 +10,7 @@ h1
 
 body
 {
+    /* background-color: blue; */
     background-image: url('../asset/image.jpg');
     background-size: cover;
     margin: 5rem;
@@ -30,3 +31,16 @@ body
     font-size: 1.5rem;
     margin: 10rem 1rem 0 3rem;
 }
+
+/*Mobile*/
+/* @media (min-width:576px) and (max-width:768px){
+    
+} */
+
+@media (min-width:576px) {}
+
+/*Tablet*/
+@media (min-width:576px) and (max-width:992px){}
+
+/*Laptop*/
+@media (min-width:992px) and (max-width:1200px){}
