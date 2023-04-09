@@ -36,6 +36,6 @@ function countdown()
 function formatTime(time)
 {
     return time < 10 ? (`0${time}`) : time;
-    // If Time < 10 then return 0 with Time Else return Time
+    // If Time < 10 then return 0 with Time Else return Time (String Interpolation)
 }
 setInterval(countdown, 1000);
