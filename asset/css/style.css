@@ -10,8 +10,7 @@ h1
 
 body
 {
-    /* background-color: blue; */
-    background-image: url('../asset/image.jpg');
+    background: url('../image.jpg');
     background-size: cover;
     margin: 5rem;
 }
