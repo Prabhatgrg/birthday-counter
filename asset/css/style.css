@@ -12,7 +12,9 @@ body
     background-size: cover;
     margin: 5rem;
 }
-
+h1{
+    font-size: 4rem;
+}
 .main{
     display: flex;
     flex-direction: column;
