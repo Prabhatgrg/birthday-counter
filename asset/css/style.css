@@ -25,28 +25,26 @@ h1{
 .container
 {
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
     font-weight: bold;
     gap: 4rem;
+    max-width: 600px;
 }
 
 .text
 {
     text-align: center;
     font-size: 1.5rem;
-    /* margin: 5rem 1rem 0 3rem; */
 }
 
-/*Mobile*/
-/* @media (min-width:576px) and (max-width:768px){
-    
-} */
-
-@media (min-width:576px) {}
-
-/*Tablet*/
-@media (max-width:992px){
+/* Responsive Start */
+@media (max-width:768px){
+    h1{
+        font-size: 3rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
-
-/*Laptop*/
-@media (min-width:992px) and (max-width:1200px){}
