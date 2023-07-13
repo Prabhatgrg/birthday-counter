@@ -40,7 +40,7 @@ h1 {
 
 /* Responsive Start */
 
-/* @media (max-width: 992px) {
+@media (max-width: 992px) {
   .main {
     display: flex;
     max-width: 600px;
@@ -54,36 +54,5 @@ h1 {
     color: #000000ac;
     flex-direction: column;
     font-weight: bold;
-  }
-} */
-
-/* Responsive Styles */
-
-@media (max-width: 768px) {
-  .main {
-    max-width: 90%; /* Adjust the width for smaller screens */
-  }
-
-  .container {
-    flex-direction: column; /* Stack the items vertically on smaller screens */
-    gap: 2rem;
-  }
-
-  h1 {
-    font-size: 3rem; /* Decrease the font size for smaller screens */
-  }
-
-  .text {
-    font-size: 1.2rem; /* Decrease the font size for smaller screens */
-  }
-}
-
-@media (max-width: 576px) {
-  h1 {
-    font-size: 2.5rem; /* Decrease the font size further for smaller screens */
-  }
-
-  .text {
-    font-size: 1rem; /* Decrease the font size further for smaller screens */
   }
 }
