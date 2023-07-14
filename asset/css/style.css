@@ -5,11 +5,11 @@
   font-family: "poppins", sans-serif;
 }
 
-body {
+/* body {
   background: url("../image.jpg");
   background-size: cover;
-  /* margin: 5rem; */
-}
+  margin: 5rem;
+} */
 h1 {
   font-size: 4rem;
   text-align: center;
